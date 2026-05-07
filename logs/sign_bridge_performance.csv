@@ -1,0 +1,45 @@
+timestamp,scenario_type,mode,raw_input,fuzzy_output,gemma_output,openai_output,final_output,correction_source,changed,fuzzy_time_ms,gemma_time_ms,openai_time_ms,total_time_ms,transcript_snapshot
+1774455444.305,Simple,letter,fac,face,,,face,Fuzzy,1,0.000,0.000,0.000,1.000,
+1774455471.267,Complex,letter,faawww,faawww,faaierre,,faaierre,Gemma,1,1.004,1266.826,0.000,1.004,FAAWWW
+1774455481.325,Simple,letter,loow,slow,,,slow,Fuzzy,1,1.004,0.000,0.000,1.004,FAAWWW LOOW
+1774455493.045,Complex,letter,fww,fww,friend,,friend,Gemma,1,0.000,1003.274,0.000,0.998,FAAWWW LOOW FWW
+1774455558.500,Complex,letter,floooi,floooi,food,,food,Gemma,1,0.000,930.571,0.000,0.999,
+2026-03-25 12:46:24,Simple,letter,fac,face,,,face,Fuzzy,1,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,FAC
+2026-03-25 12:46:32,Simple,letter,wwlw,wwlw,well,,well,Gemma,1,0.000,1075.910,0.000,1075.910,1,0,OpenAI fallback ready,FAC WWLW
+2026-03-25 12:52:18,Simple,letter,wlo,wlo,who,,who,Gemma,1,0.000,1093.306,0.000,1093.306,1,0,OpenAI fallback ready,who
+2026-03-25 12:52:38,Simple,letter,wofqc,wofqc,wofqc,wofqc,wofqc,Local,0,0.000,960.398,508.376,1468.775,1,1,OpenAI request failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*****************...,wofqc
+2026-03-25 12:53:28,Complex,letter,wolw,wolw,window,,window,Gemma,1,0.999,1121.050,0.000,1122.049,1,0,OpenAI fallback ready,window
+2026-03-25 13:03:18,Simple,letter,facwl,facwl,face,,face,Gemma,1,0.000,1519.574,0.000,1519.574,1,0,OpenAI fallback ready,face
+2026-03-25 13:03:47,Simple,letter,low,slow,,,slow,Fuzzy,1,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,slow
+2026-03-25 13:13:51,Simple,word,wq,wq,,,wq,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,WQ000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2026-04-01 03:11:32,Complex,letter,cfwh,cfwh,no,,no,Gemma,1,0.000,1080.730,0.000,1080.730,1,0,OpenAI fallback ready,no
+2026-04-01 03:18:27,Complex,letter,fawcwltw,fawcwltw,train,fawcwltw,fawcwltw,Local,0,0.000,1224.231,138.303,1362.534,1,1,OpenAI request failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*****************...,fawcwltw
+2026-04-01 03:22:18,Simple,letter,fwal,fwal,family,fwal,fwal,Local,0,0.000,897.423,93.327,990.750,1,1,OpenAI request failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*****************...,fwal
+2026-04-01 03:23:49,Complex,letter,falwowly,falwowly,family,falwowly,falwowly,Local,0,0.000,1197.218,1509.860,2707.078,1,1,OpenAI fallback ready,falwowly
+2026-04-01 03:29:50,Simple,letter,talll,talll,call,,call,Gemma,1,0.000,1026.226,0.000,1026.226,1,0,OpenAI fallback ready,call
+2026-04-23 22:46:30,Complex,word,qqqgggqqqqqq,qqqgggqqqqqq,train,qqqgggqqqqqq,qqqgggqqqqqq,Local,0,1.001,775.894,2203.748,2980.643,1,1,OpenAI fallback ready,QQQQQGGGQQQQQQ
+2026-04-23 22:46:51,Simple,word,qq,qq,,,qq,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,QQ0yesyes
+2026-04-23 22:47:19,Simple,letter,q,q,,,q,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,000000000Q
+2026-04-23 22:47:56,Simple,letter,bb,bb,,,bb,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,BB
+2026-04-23 22:48:01,Simple,letter,bbb,bbb,,,bbb,Local,0,1.077,0.000,0.000,1.077,1,0,OpenAI fallback ready,bbb
+2026-04-23 22:48:09,Simple,letter,b,b,,,b,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,B
+2026-04-23 22:48:50,Simple,letter,bw,bw,,,bw,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,BW
+2026-04-23 22:49:14,Simple,letter,laaw,laaw,slow,laaw,laaw,Local,0,0.000,1294.895,714.736,2009.631,1,1,OpenAI fallback ready,laaw
+2026-04-23 22:50:14,Simple,letter,teacte,teacher,,,teacher,Fuzzy,1,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,teacher
+2026-04-23 22:50:24,Simple,word,q,q,,,q,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,Q0000
+2026-04-23 22:51:25,Complex,letter,qlowwhp,qlowwhp,,,qlowwhp,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,qlowwhp
+2026-04-23 22:53:03,Simple,word,q,q,,,q,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,Q000
+2026-04-23 22:54:48,Simple,word,q,q,,,q,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,Q
+2026-04-29 10:01:32,Simple,word,qq,qq,,,qq,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,Q0yes0000Q0000QQ
+2026-04-29 10:08:54,Complex,letter,q,q,train,qqgqqq,qqgqqq,Local,1,0.000,952.740,3996.167,4948.907,1,1,OpenAI fallback ready,qqgqqq
+2026-04-29 10:09:13,Simple,word,qq,qq,,,qq,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,Q0QQ00
+2026-04-29 10:09:43,Complex,letter,qq,qq,train,qlqqq,qlqqq,Local,1,0.000,751.808,1416.035,2167.844,1,1,OpenAI fallback ready,qlqqq
+2026-04-29 10:10:09,Complex,letter,ql,ql,who,wolq,wolq,Local,1,0.000,801.472,1017.946,1819.418,1,1,OpenAI fallback ready,wolq
+2026-04-29 10:10:29,Simple,letter,wfolw,wfolw,wfolw,wfolw,wfolw,Local,0,0.000,787.314,2730.196,3517.510,1,1,OpenAI fallback ready,wfolw
+2026-04-29 10:10:57,Simple,letter,qwlff,qwlff,train,qwlff,qwlff,Local,0,0.000,900.820,2274.114,3174.934,1,1,OpenAI fallback ready,Q0000qwlff
+2026-04-29 10:43:16,Simple,letter,qqqqq,qqqqq,me,qqqqq,qqqqq,Local,0,1.041,641.138,1251.057,1893.236,1,1,OpenAI fallback ready,teacffrqqqq Q00qqqqq
+2026-04-29 10:44:33,Simple,letter,lol,lol,stop,all,lol,Local,0,0.000,1020.233,2979.066,3999.299,1,1,OpenAI fallback ready,teacher lol
+2026-04-29 10:45:18,Simple,letter,wfy,wfy,why,,why,Gemma,1,0.000,1000.735,0.000,1000.735,1,0,OpenAI fallback ready,why
+2026-04-29 11:20:38,Simple,letter,wl,wl,stop,tea,wl,Local,0,0.000,1194.480,2012.401,3206.880,1,1,OpenAI fallback ready,teacher LO WL
+2026-04-29 11:20:45,Simple,word,q,q,,,q,Local,0,0.000,0.000,0.000,0.000,1,0,OpenAI fallback ready,Q00
+2026-04-29 11:21:45,Simple,letter,qwac,qwac,qwacmeyibel,qwac,qwac,Local,0,0.000,796.031,2678.640,3474.671,1,1,OpenAI fallback ready,qwac

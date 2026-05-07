@@ -1,0 +1,4 @@
+sample_id,mode,raw_input,expected_output,transcript_snapshot,notes
+1,letter,fac,face,,simple fuzzy-style fix
+2,letter,loow,slow,,missing leading character example
+3,letter,tall,tall,,already correct; should not be harmed
